@@ -2,7 +2,7 @@
 My own formulae and casks for homebrew
 
 # Index of Formulae
-No formulae so in this tap
+No formulae so far in this tap
 
 # Index of Casks
 **1. Notepad==**
