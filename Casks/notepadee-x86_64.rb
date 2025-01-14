@@ -1,4 +1,4 @@
-cask "notepadee" do
+cask "notepadee-x86_64" do
   version "4.8.1"
   sha256 :no_check
 
