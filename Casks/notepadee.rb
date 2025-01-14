@@ -1,4 +1,4 @@
-cask "notepad==" do
+cask "notepadee" do
   version "4.8.1"
   sha256 :no_check
 
