@@ -20,7 +20,7 @@ class notepadee-source-macos < Formula
   def install
     # Remove unrecognized options if they cause configure to fail
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    system "cd macOS", "&&", "./autogen.sh", "&&", "sudo make install"
+    system "cd macOS", "&&", "chmod +x autogen.sh", "&&", "./autogen.sh", "&&", "sudo make install"
   end
 
   test do
