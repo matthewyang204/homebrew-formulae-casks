@@ -4,7 +4,8 @@
 class NotepadeeSource < Formula
   desc "Simple text editor for unix systems and Windows Notepad alternative"
   homepage ""
-  url "https://github.com/matthewyang204/NotepadEE/archive/refs/tags/4.9.2.tar.gz"
+  version "4.9.2"
+  url "https://github.com/matthewyang204/NotepadEE/archive/refs/tags/#{version}.tar.gz"
   sha256 "74a1c276247771a2cb90ed0f573ebfa65402ee8032e32da0d45c22461747f48f"
   license ""
 
