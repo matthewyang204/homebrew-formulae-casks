@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class NotepadeeSource < Formula
+class notepadee-source-macos < Formula
   desc "Simple text editor for unix systems and Windows Notepad alternative"
   homepage ""
   version "4.9.2"
