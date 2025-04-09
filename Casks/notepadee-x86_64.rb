@@ -1,5 +1,5 @@
 cask "notepadee-x86_64" do
-  version "5.0.8"
+  version "5.0.9"
   sha256 :no_check
 
   url "https://github.com/matthewyang204/NotepadEE/releases/download/#{version}/NotepadEE-macOS-x86_64.zip"
