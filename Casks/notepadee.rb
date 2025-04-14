@@ -13,6 +13,8 @@ cask "notepadee" do
   end
 
   app "Notepad==.app"
+  
+  depends_on macos: ">= :catalina"
 
   zap trash: [
     "~/.notepadee",
