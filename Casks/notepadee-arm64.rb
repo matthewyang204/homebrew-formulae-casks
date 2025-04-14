@@ -17,4 +17,8 @@ cask "notepadee-arm64" do
   zap trash: [
     "~/.notepadee",
   ]
+  
+  caveats <<~EOS
+  Although this is the arm64 cask, arm64 native binaries for Notepad== are no longer available for macOS. Because Python.org soon won't provide official Python 3.12 packages, I now build my own copy of Python 3.12 with the macOS 10.15 Catalina SDK. Please switch to using the notepadee cask, as this cask and the specific x86_64 cask will soon be deprececated.
+  EOS
 end
