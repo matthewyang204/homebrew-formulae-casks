@@ -21,6 +21,8 @@ cask "notepadee-x86_64" do
   ]
   
   caveats <<~EOS
-  Because Python.org soon won't provide official Python 3.12 packages, I now build my own copy of Python 3.12 with the macOS 10.15 Catalina SDK. Please switch to using the notepadee cask, as this cask and the specific x86_64 cask will soon be deprececated. Additionally, this cask and the x86_64 cask will no longer get updates. 5.0.10 will be the last update to these casks. Once my code works on 3.13, the notepadee cask will be able to supply both arm64 and x86_64 binaries through one single cask.
+   The notepadee cask provides both arm64 and x86_64 binaries. Please use it instead of these specific casks notepadee-arm64 and notepadee-x86_64.
   EOS
+
+  deprececate! date: "2025-05-16", because: caveats
 end
