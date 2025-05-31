@@ -1,2 +1,7 @@
 # JetBrains IDE prefs
 .idea/
+
+# macOS annoyances
+.DS_Store
+*DS_Store
+._*
