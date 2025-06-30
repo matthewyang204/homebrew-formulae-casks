@@ -6,6 +6,8 @@ class Dproc < Formula
     homepage "https://github.com/matthewyang204/dproc"
     url "https://github.com/matthewyang204/dproc/releases/download/#{version}/dproc-#{version}-universal2-apple-darwin.tar.xz"
 
+    depends_on macos: ">= 10.12"
+
     def install
         bin.install "dproc"
     end
