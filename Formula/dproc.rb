@@ -6,9 +6,10 @@ class Dproc < Formula
     homepage "https://github.com/matthewyang204/dproc"
     url "https://github.com/matthewyang204/dproc/releases/download/#{version}/dproc-#{version}-universal2-apple-darwin.tar.xz"
 
-    depends_on macos: ">= 10.12"
-
     def install
+        if MacOS.version < :sierra
+            odie "dproc requires macOS Sierra or later to run."
+        end
         bin.install "dproc"
     end
 end
