@@ -4,7 +4,10 @@ class Dproc < Formula
 
     desc "A basic CLI data processor, designed to be fed data and output data directly from the commandline"
     homepage "https://github.com/matthewyang204/dproc"
-    url "https://github.com/matthewyang204/dproc/releases/download/#{version}/dproc-#{version}-universal2-apple-darwin.tar.xz"
+    if OS.mac?
+        url "https://github.com/matthewyang204/dproc/releases/download/#{version}/dproc-#{version}-universal2-apple-darwin.tar.xz"
+    elseif OS.linux?
+        url "https://github.com/matthewyang204/dproc/releases/download/#{version}/dproc-#{version}-unknown-linux-gnu.tar.xz"
 
     def install
         if MacOS.version < :sierra
