@@ -8,6 +8,7 @@ class Dproc < Formula
         url "https://github.com/matthewyang204/dproc/releases/download/#{version}/dproc-#{version}-universal2-apple-darwin.tar.xz"
     elseif OS.linux?
         url "https://github.com/matthewyang204/dproc/releases/download/#{version}/dproc-#{version}-x86_64-unknown-linux-gnu.tar.xz"
+    end
 
     def install
         if MacOS.version < :sierra
