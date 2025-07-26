@@ -4,10 +4,10 @@ class Dproc < Formula
     homepage "https://github.com/matthewyang204/dproc"
     if OS.mac?
         url "https://github.com/matthewyang204/dproc/releases/download/#{version}/dproc-#{version}-universal2-apple-darwin.tar.xz"
-        sha256 "15957a89df2dad9ae19ce000cb255d1e5aed789b329b258d9f81b1bbe7cc01d0"
+        sha256 "a9428edbd13947157e5d3f588747373d473117e6766c383a3c0a5b1e7e911f10"
     elsif OS.linux?
         url "https://github.com/matthewyang204/dproc/releases/download/#{version}/dproc-#{version}-x86_64-unknown-linux-gnu.tar.xz"
-        sha256 "2c3da2908f6a731db52c5f0fbb0348215ccc340df9e7d4c295666b5546086c3a"
+        sha256 "6dd543bc03af6680210eae0270098ccebd07b2f65ee7127a5aa4fc26e347e75c"
     end
 
     def install
