@@ -20,6 +20,6 @@ cask "notepadee" do
   depends_on macos: ">= :catalina"
 
   zap trash: [
-    "~/.notepadee",
+    "~/.notepadee/cache",
   ]
 end
