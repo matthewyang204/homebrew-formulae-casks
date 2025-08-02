@@ -15,6 +15,7 @@ cask "notepadee" do
   end
 
   app "Notepad==.app"
+  binary "#{appdir}/Notepad==.app/Contents/Resources/scripts/notepadee"
   
   depends_on macos: ">= :catalina"
 
