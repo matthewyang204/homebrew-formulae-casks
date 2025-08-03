@@ -22,4 +22,5 @@ class Libmysolvers < Formula
     To update to the latest commit, run:
     brew upgrade --fetch-HEAD libmysolvers
     EOS
+  end
 end
