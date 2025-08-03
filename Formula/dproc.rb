@@ -1,5 +1,6 @@
 class Dproc < Formula
-    version "1.1.1_2"
+    version "1.1.1"
+    revision 2
     desc "A basic CLI data processor, designed to be fed data and output data directly from the commandline"
     homepage "https://github.com/matthewyang204/dproc"
     if OS.mac?
