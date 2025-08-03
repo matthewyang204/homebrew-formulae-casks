@@ -16,9 +16,10 @@ class Libmysolvers < Formula
     system "gmake", "install"
   end
   
-  caveats <<~EOS
-  libmysolvers is a rolling-release library.
-  To update to the latest commit, run:
+  def caveats
+    <<~EOS
+    libmysolvers is a rolling-release library.
+    To update to the latest commit, run:
     brew upgrade --fetch-HEAD libmysolvers
-  EOS
+    EOS
 end
