@@ -4,6 +4,8 @@ import os
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 arguments = sys.argv
+tcl_path = os.environ.get("TCL_LIBRARY")
+tk_path = os.environ.get("TK_LIBRARY")
 
 def run_pyinstaller(config):
     try:
