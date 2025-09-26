@@ -37,7 +37,7 @@ def run_pyinstaller(config):
         # Patch cmd further
         cmd += ['--hidden-import=tkinter']
         if tcl_path and tk_path:
-            cmd += ['--add-data', f'{tcl_path}:tcl9.0', '--add-data', f'{tk_path}:tk9.0']
+            cmd += ['--add-data', f'{tk_path}:_tk_data'] # , '--add-data', f'{tk_path}:tk9.0']
 
         # Run PyInstaller
         subprocess.check_call(cmd)
