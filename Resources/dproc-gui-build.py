@@ -32,9 +32,10 @@ def run_pyinstaller(config):
             print("ERROR: Invalid build configuration. Use 'release' or 'debug'.")
             sys.exit(1)
 
-        # Patch
+        # Patch cmd further
+        cmd += ['--hidden-import=tkinter']
         if tcl_path and tk_path:
-            cmd += ["--add-data", f"{tcl_path}:tcl8.6", "--add-data", f"{tk_path}:tk8.6"]
+            cmd += ['--add-data', f'{tcl_path}:tcl8.6', '--add-data', f'{tk_path}:tk8.6']
 
         # Run PyInstaller
         subprocess.check_call(cmd)
