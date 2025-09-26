@@ -18,7 +18,7 @@ class DprocGui < Formula
 
     system "curl", "-LO", "https://github.com/matthewyang204/homebrew-formulae-casks/raw/refs/heads/main/Resources/dproc-gui-build.py"
 
-    system "python3", "dproc-gui-build.py"
+    system python3, "dproc-gui-build.py"
     # system "exit", "1"
     bin.install "dist/dproc-gui"
   end
