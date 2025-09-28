@@ -8,5 +8,8 @@ This is required for the Qt 6.5 formala in this tap, please install it manually 
 **3. dproc**
 A basic CLI data processor, designed to be fed data and output data directly from the commandline. Check out at the repo [page](https://github.com/matthewyang204/dproc).
 
+**4. dproc GUI**
+The GUI for dproc. Highly experimental; the formula has currently failed all installs attempted on my own macOS servers.
+
 **4. libmysolvers**
 Matthew Yang's Solvers Library. Check it out at the repo [page](https://github.com/matthewyang204/libmysolvers). Please note that this is a rolling release library, and must be installed with `--HEAD` and upgraded with `--fetch-HEAD`.
