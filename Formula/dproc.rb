@@ -11,9 +11,10 @@ class Dproc < Formula
     end
 
     def install
-        if MacOS.version < :sierra
-            odie "dproc requires macOS Sierra or later to run."
-        end
+        if OS.mac?
+            if MacOS.version < :sierra
+                odie "dproc requires macOS Sierra or later to run."
+            end
         bin.install "dproc"
     end
 end
