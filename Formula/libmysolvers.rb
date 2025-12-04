@@ -5,7 +5,7 @@ class Libmysolvers < Formula
   license "GPL-3.0"
 
   depends_on "make" => :build
-  depends_on "gcc@15" => :build
+  depends_on "gcc" => :build
   depends_on "binutils" => :build
   depends_on "gnu-sed" => :build
 
