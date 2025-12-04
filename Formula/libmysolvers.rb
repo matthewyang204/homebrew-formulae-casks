@@ -10,7 +10,7 @@ class Libmysolvers < Formula
   depends_on "gnu-sed" => :build
 
   def install
-    ENV["CC"] = "gcc-15"
+    ENV["CC"] = "gcc"
     system "./configure", "--prefix=#{prefix}"
     system "gmake"
     system "gmake", "install"
