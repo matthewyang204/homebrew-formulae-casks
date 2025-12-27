@@ -16,8 +16,8 @@ class Dproc < Formula
                 odie "dproc requires macOS Sierra or later to run."
             end
             bin.install "dproc"
-        end
         elsif OS.linux?
             bin.install "bin/dproc"
+        end
     end
 end
