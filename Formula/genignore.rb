@@ -1,10 +1,9 @@
-
 class Genignore < Formula
   desc "A utility for setting up .gitignores"
   homepage "https://github.com/matthewyang204/genignore"
   url "https://github.com/matthewyang204/genignore/archive/refs/heads/master.zip"
   version "1.0.0"
-  sha256 "8e00a6842656f479316ac3c13bd8ebaf73a71b9c62f8ff04a3dd090d1b9eb377"
+  sha256 "1e19fc804158a0941323c599cdbe30a0cf974015d63f9cd20866838a2432ae5d"
   license "GPL-3.0"
 
   depends_on "go" => :build
