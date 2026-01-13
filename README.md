@@ -17,6 +17,9 @@ The GUI for dproc. Highly experimental; the formula has currently failed all ins
 **4. libmysolvers**
 Matthew Yang's Solvers Library. Check it out at the repo [page](https://github.com/matthewyang204/libmysolvers). Please note that this is a rolling release library, and must be installed with `--HEAD` and upgraded with `--fetch-HEAD`.
 
+**5. genignore**
+My fork of `genignore`. It is a utility for setting up .gitignores. The fork's homepage can be checked out [here](https://github.com/matthewyang204/genignore), while the original project's homepage can be checked out [here](https://github.com/regarager/genignore).
+
 # Index of Casks
 **1. Notepad==**
 My text editor. You can check it out [here](https://github.com/matthewyang204/NotepadEE).
