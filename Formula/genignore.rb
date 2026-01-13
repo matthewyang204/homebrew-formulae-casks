@@ -1,8 +1,8 @@
 
 class Genignore < Formula
   desc "A utility for setting up .gitignores"
-  homepage "https://github.com/regarager/genignore"
-  url "https://github.com/regarager/genignore/archive/refs/heads/master.zip"
+  homepage "https://github.com/matthewyang204/genignore"
+  url "https://github.com/matthewyang204/genignore/archive/refs/heads/master.zip"
   version "1.0.0"
   sha256 "8e00a6842656f479316ac3c13bd8ebaf73a71b9c62f8ff04a3dd090d1b9eb377"
   license "GPL-3.0"
