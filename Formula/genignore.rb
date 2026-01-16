@@ -9,13 +9,7 @@ class Genignore < Formula
   depends_on "go" => :build
   depends_on "make" => :build
   depends_on "pandoc" => :build
-
-  # Additional dependency
-  # resource "" do
-  #   url ""
-  #   sha256 ""
-  # end
-
+  
   def install
     system "make"
     system "make", "install", "PREFIX=#{prefix}"
