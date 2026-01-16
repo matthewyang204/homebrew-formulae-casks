@@ -3,7 +3,7 @@ class Genignore < Formula
   homepage "https://github.com/matthewyang204/genignore"
   url "https://github.com/matthewyang204/genignore/archive/refs/heads/production.zip"
   version "1.0.0"
-  sha256 "a1d146fd418e2c31423d04061823c4f89445c2736c719c5a789707701d9ab7ba"
+  sha256 "cd70bf5259515e2bc191b126ec144d657a1d532ee0b732d5073a4f6157760e20"
   license "GPL-3.0"
 
   depends_on "go" => :build
