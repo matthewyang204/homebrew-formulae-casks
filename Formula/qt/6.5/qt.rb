@@ -64,6 +64,7 @@ class Qt < Formula
   depends_on "sqlite"
   depends_on "webp"
   depends_on "zstd"
+  depends_on "icu4c@73"
 
   uses_from_macos "bison" => :build
   uses_from_macos "flex"  => :build
