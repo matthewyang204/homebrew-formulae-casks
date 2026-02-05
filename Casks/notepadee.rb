@@ -2,9 +2,10 @@ cask "notepadee" do
   arch arm: "arm64", intel: "x86_64"
   
   version "5.2.4"
+  revision 1
   sha256 :no_check
 
-  url "https://github.com/matthewyang204/NotepadEE/releases/download/#{version}/NotepadEE-macOS-#{arch}.zip"
+  url "https://github.com/matthewyang204/NotepadEE/releases/download/#{version}_#{revision}/NotepadEE-macOS-#{arch}.zip"
   name "Notepad=="
   desc "Simple Windows Notepad replacement for Unix systems"
   homepage "https://github.com/matthewyang204/NotepadEE"
