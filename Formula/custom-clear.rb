@@ -3,7 +3,7 @@ class CustomClear < Formula
   homepage "https://github.com/matthewyang204/scripts"
   version "1.0.0"
   url "https://github.com/matthewyang204/scripts/archive/refs/tags/clear-1.0.tar.gz"
-  sha256 "21095cf90be1fb24dd7315860288f4c71ca7680877e26c4ef22278d93c067827"
+  sha256 "646979e5812e2d0a2d0214a77a519aac8586ce7164e05e7cc4ca80b370b85980"
   license "GPL-3.0"
 
   depends_on "bash"
@@ -11,7 +11,7 @@ class CustomClear < Formula
   def install
     system "mkdir -p build"
     system "cp misc/macos-clear build/clear"
-    system "cp misc/macos-clear.source build/clear.source"
+    system "cp misc/homebrew-clear.source build/clear.source"
     bin.install "build/clear"
     share.install "build/clear.source"
   end
