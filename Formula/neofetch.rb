@@ -6,11 +6,6 @@ class Neofetch < Formula
   license "MIT"
   head "https://github.com/suparious/neofetch.git", branch: "master"
 
-  bottle do
-    rebuild 4
-    sha256 cellar: :any_skip_relocation, all: "1382d315f586920f24251b6cd7a79b1c940634d073b42c72007ed87a796d1efc"
-  end
-
   on_macos do
     depends_on "screenresolution"
   end
