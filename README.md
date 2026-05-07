@@ -20,6 +20,9 @@ Matthew Yang's Solvers Library. Check it out at the repo [page](https://github.c
 **5. genignore**
 @regarager's `genignore`. It is a utility for setting up `.gitignore`s. The homepage can be checked out [here](https://github.com/regarager/genignore).
 
+**5. neofetch**
+A maintained version of the now-discontinued official Homebrew `neofetch`. It is made by @suparious.
+
 # Index of Casks
 **1. Notepad==**
 My text editor. You can check it out [here](https://github.com/matthewyang204/NotepadEE).
