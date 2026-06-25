@@ -17,5 +17,5 @@ cask "schemix" do
   app "Schemix.app"
   binary "#{appdir}/Schemix.app/Contents/MacOS/Schemix"
   
-  depends_on macos: ">= :catalina"
+  depends_on macos: :ventura
 end
