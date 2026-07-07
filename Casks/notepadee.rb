@@ -1,7 +1,7 @@
 cask "notepadee" do
   arch arm: "arm64", intel: "x86_64"
   
-  version "5.4.1"
+  version "5.4.2"
   sha256 :no_check
 
   url "https://github.com/matthewyang204/NotepadEE/releases/download/#{version}/NotepadEE-macOS-#{arch}.zip"
