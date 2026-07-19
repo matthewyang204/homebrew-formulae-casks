@@ -21,5 +21,21 @@ class Dproc < Formula
             bin.install "bin/dproc"
             bin.install "bin/dfmtutils"
         end
+
+        # dfmtutils subcommands
+        dfmtutilsubcommands = %w[
+            csvcol2del
+            csvrow2del
+            del2csvcol
+            del2csvrow
+            singlexlsx2csv
+            xlsxcontainer2csv
+            xlsx2csv
+        ]
+    
+        # Loop through and create a symlink for each one pointing to dfmtutils
+        dfmtutilsubcommands.each do |cmd|
+            bin.install_symlink "dfmtutils" => cmd
+        end
     end
 end
