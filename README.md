@@ -1,6 +1,8 @@
 # homebrew-formulae-casks
 My own formulae and casks for homebrew
 
+To install the Formulae & Casks in this Tap, please tap it with the following command: `brew tap matthewyang204/homebrew-formulae-casks && brew trust matthewyang204/formulae-casks`
+
 # Index of Formulae
 **1. Qt 6.5**
 This is the Qt 6.5 formula from back in the Homebrew commit history, here for users who need it for specific projects.
