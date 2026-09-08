@@ -1,8 +1,8 @@
 class Genignore < Formula
   desc "Utility for setting up .gitignores"
   homepage "https://github.com/matthewyang204/genignore"
-  url "https://github.com/regarager/genignore/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  url "https://github.com/regarager/genignore/archive/refs/tags/v1.1.1.tar.gz"
+  sha256 "339d35124c7c4af2c1913932760dcc456a689aa22a29f48fde1971a6fe8c3e01"
   license "GPL-3.0-or-later"
 
   depends_on "go" => :build
