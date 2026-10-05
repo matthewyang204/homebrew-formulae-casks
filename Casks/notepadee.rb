@@ -17,7 +17,8 @@ cask "notepadee" do
   app "Notepad==.app"
   binary "#{appdir}/Notepad==.app/Contents/Resources/scripts/notepadee"
   
-  depends_on macos: :catalina
+  # depends_on macos: :catalina
+  # This cask depends on macOS Catalina or later, but this is disabled to stop errors
 
   zap trash: [
     "~/.notepadee/cache",
