@@ -19,9 +19,6 @@ class Icu4cAT77 < Formula
 
   keg_only :versioned_formula
 
-  # Disable date set 1 year after ICU 78.1 release
-  disable! date: "2026-10-30", because: :versioned_formula
-
   def install
     args = %w[
       --disable-samples
