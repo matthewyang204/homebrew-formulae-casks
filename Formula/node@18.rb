@@ -18,16 +18,12 @@ class NodeAT18 < Formula
 
   keg_only :versioned_formula
 
-  # https://github.com/nodejs/release#release-schedule
-  deprecate! date: "2024-10-29", because: :unsupported
-  disable! date: "2025-10-29", because: :unsupported
-
   depends_on "pkgconf" => :build
   depends_on "python-setuptools" => :build
   depends_on "python@3.13" => :build
   depends_on "brotli"
   depends_on "c-ares"
-  depends_on "icu4c@77"
+  depends_on "matthewyang204/formulae-casks/icu4c@77"
   depends_on "libnghttp2"
   depends_on "libuv"
   depends_on "openssl@3"
